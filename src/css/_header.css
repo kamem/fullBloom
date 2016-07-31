@@ -1,0 +1,97 @@
+#header {
+  position: relative;
+	background: no-repeat center;
+	height: height(var(--main_bg));
+	width: width(var(--main_bg));
+	background-image: resolve(var(--main_bg));
+	text-align: center;
+  margin: 0 auto 40px;
+  padding-top: 1px;
+}
+
+.ribbon {
+  background: no-repeat center;
+  height: height(var(--ribbon));
+  min-width: width(var(--ribbon));
+  background-image: resolve(var(--ribbon));
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.main_title {
+	margin-top: 59px;
+	height: 0;
+	background: no-repeat center;
+	padding-top: height(var(--main_title));
+	background-image: resolve(var(--main_title));
+	overflow: hidden;
+}
+
+.description {
+	margin-top: 50px;
+	color: #4f4444;
+}
+.description_text {
+	margin-bottom: 30px;
+	color: #4f4444;
+	text-shadow: 0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255),
+	0 0 6px rgb(255, 255, 255);
+
+	letter-spacing: 3px;
+}
+
+[class^=material] {
+  position: absolute;
+}
+
+p.material_1 {
+	left: 1121px;
+	top: 562px;
+}
+p.material_2 {
+	left: 1144px;
+	top: 521px;
+}
+p.material_3 {
+	left: 29px;
+	top: 484px;
+}
+p.material_4 {
+	left: 1px;
+	top: 445px;
+}
+p.material_5 {
+	left: 280px;
+	top: 26px;
+}
+p.material_6 {
+	left: 914px;
+	top: 182px;
+	z-index: 3;
+}
+p.material_7 {
+	left: 870px;
+	top: 330px;
+}

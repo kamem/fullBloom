@@ -1,0 +1,26 @@
+:root {
+	--main_bg: "img/main_bg.png";
+	--main_title: "img/title.png";
+	--ribbon: "img/ribbon.png";
+
+	--marker: "img/marker.png";
+
+	--present_bg: "img/section_01.png";
+	--particular_about_bg: "img/section_02.png";
+
+	--flower_tulip_bg: "img/flower_tulip_bg.png";
+	--flower_rose_bg: "img/flower_rose_bg.png";
+	--flower_custom_bg: "img/flower_custom_bg.png";
+
+	--facebook: "img/facebook.png";
+
+	--flower_bg: "img/flower_bg.png";
+	--footer_bg: "img/footer_bg.gif";
+
+
+  --truncate: {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  };
+}

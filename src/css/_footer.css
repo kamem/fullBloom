@@ -1,0 +1,11 @@
+#footer {
+  background-image: resolve(var(--footer_bg));
+  color: #8f855d;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.copright {
+  font-size: 12px;
+  letter-spacing: 2px;
+}

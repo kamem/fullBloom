@@ -1,0 +1,100 @@
+.materials {
+  position: absolute;
+  width: 100%;
+  height: 2950px;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+  min-width: width(var(--main_bg));
+}
+
+[class^=randomContent] {
+  position: absolute;
+  transform-origin: 50%;
+  img {
+    width: 100%;
+  }
+}
+
+[class^=circle] {
+  width: 725px;
+  height: 725px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.circle_01 {
+  background-color: #fffcdd;
+  top: 185px;
+  left: -485px;
+  right: 485px;
+}
+.circle_02 {
+  background-color: #fff8e7;
+  top: 70px;
+  left: 680px;
+  right: -680px;
+}
+.circle_03 {
+  top: 950px;
+  left: 470px;
+  right: -470px;
+  background-color: #ffefee;
+}
+.circle_04 {
+  top: 1198px;
+  left: -485px;
+  right: 485px;
+  background-color: #f7ffe0;
+}
+
+[class^=material_flower] {
+  position: absolute;
+  top: 10px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+}
+
+.material_flower_01 {
+  left: -390px;
+  right: 390px;
+  top: 1639px;
+}
+.material_flower_02 {
+  left: 537px;
+  right: -537px;
+  top: 1389px;
+}
+.material_flower_03 {
+  left: -500px;
+  right: 500px;
+  top: 455px;
+}
+.material_flower_04 {
+  left: 530px;
+  right: -530px;
+  top: 1795px;
+}
+.material_flower_05 {
+  left: -90px;
+  right: 90px;
+  top: 1600px;
+}
+.material_flower_06 {
+  left: 70px;
+  right: -70px;
+  top: 1100px;
+}
+.material_flower_07 {
+  left: 555px;
+  right: -555px;
+  top: 1020px;
+}

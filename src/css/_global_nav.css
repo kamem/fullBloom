@@ -1,0 +1,34 @@
+.global_nav {
+	position: fixed;
+	top: 50%;
+	margin-top: -72px;
+	right: 10px;
+	height: 147px;
+	overflow: hidden;
+  z-index: 10;
+
+	.nav_item {
+		margin-bottom: 15px;
+		opacity: 0.4;
+		transition-property: opacity;
+		transition-duration: 0.3s;
+		list-style-type: none;
+		.nav_link {
+			height: 0;
+			display: block;
+			overflow: hidden;
+		}
+		@for $i from 1 to 4 {
+			&:nth-child($i) .nav_link {
+        $img: "img/nav_0$i.png";
+				padding-top: height($img);
+				width: width($img);
+				background-image: resolve($img);
+			}
+		}
+		&:hover,
+		&.on {
+			opacity: 1;
+		}
+	}
+}
