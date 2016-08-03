@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "postinstall": "$(npm bin)/gulp",
-    "start": "$(npm bin)/gulp",
+    "postinstall": "$(npm bin)/gulp build",
+    "start": "$(npm bin)/gulp server",
     "watch": "gulp",
     "build": "gulp build --minify=true",
     "sprites": "gulp sprites",

@@ -18,3 +18,12 @@ gulp.task('livereload', () => {
 			.pipe(watch(config.dest + '/**/*.*'))
 			.pipe(connect.reload());
 });
+
+
+gulp.task('server', () => {
+	connect.server({
+		root: config.dest,
+		host: process.env.HOST || 'localhost',
+		port: process.env.PORT || 8000
+	});
+});
