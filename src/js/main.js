@@ -14,10 +14,9 @@ $('.materials').random([
 	'<img src="/img/bg_flower_06.png">',
 	'<img src="/img/bg_flower_07.png">'
 ],{
-	num: 35,
+	num: 15,
 	width: 350,
-	height: 300,
-	min: 120
+	min: 220
 });
 
 /* flowers tab */
