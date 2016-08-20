@@ -5,18 +5,14 @@ $('a[href^="#"]:not(.flower_nav a)').smoothPageScroll({
 });
 
 /* background flowers */
-$('.materials').random([
+$('.materials').randomElements([
 	'<img src="/img/bg_flower_01.png">',
 	'<img src="/img/bg_flower_02.png">',
-	'<img src="/img/bg_flower_03.png">',
 	'<img src="/img/bg_flower_04.png">',
-	'<img src="/img/bg_flower_05.png">',
-	'<img src="/img/bg_flower_06.png">',
 	'<img src="/img/bg_flower_07.png">'
 ],{
 	num: 15,
-	width: 350,
-	min: 220
+	min: 300
 });
 
 /* flowers tab */

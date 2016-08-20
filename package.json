@@ -48,6 +48,7 @@
     "lodash": "^4.0.0",
     "jquery.easing": "^1.4.1",
     "jquery.scroll-parallax": "^0.3.0",
-    "jquery.smooth-page-scroll": "^0.2.0"
+    "jquery.smooth-page-scroll": "^0.2.0",
+    "jquery.random-elements": "^0.1.1"
   }
 }
